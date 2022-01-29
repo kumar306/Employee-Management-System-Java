@@ -231,7 +231,7 @@
                       {
                           $("#confirmpasswordmissing").html("Passwords don't match");
                       }
-                      $("#passwordmissing").show();
+                      $("#confirmpasswordmissing").show();
                       confirmpassworderror=false;
                       return false;
                   }
